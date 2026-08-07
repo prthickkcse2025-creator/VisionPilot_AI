@@ -1,0 +1,1802 @@
+[
+  {
+    "image_id": "bag_hdr_0.png",
+    "filename": "bag_hdr_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_hdr_0.png",
+    "features": {
+      "brightness": 0.1476375163398693,
+      "contrast": 0.08017270453400145,
+      "blur": 0.6787113508291109,
+      "noise": 0.05104156616467807,
+      "color_cast": 0.0006901832038946014,
+      "dynamic_range": 0.12549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6301409754453207,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "bag_hdr_1.png",
+    "filename": "bag_hdr_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_hdr_1.png",
+    "features": {
+      "brightness": 0.14763115468409588,
+      "contrast": 0.08014716118718668,
+      "blur": 0.6787853705515134,
+      "noise": 0.051200060951395475,
+      "color_cast": 0.0006557902122394661,
+      "dynamic_range": 0.12549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6301381492367775,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "bag_hdr_2.png",
+    "filename": "bag_hdr_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_hdr_2.png",
+    "features": {
+      "brightness": 0.14763137254901962,
+      "contrast": 0.08017927517695102,
+      "blur": 0.6783850584131808,
+      "noise": 0.05101502387708644,
+      "color_cast": 0.0007313358739278433,
+      "dynamic_range": 0.12549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6301633750982921,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "bag_hdr_3.png",
+    "filename": "bag_hdr_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_hdr_3.png",
+    "features": {
+      "brightness": 0.14763934640522874,
+      "contrast": 0.08017087617376485,
+      "blur": 0.678500751799472,
+      "noise": 0.05124900984556571,
+      "color_cast": 0.0007409691893094518,
+      "dynamic_range": 0.12549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6301532526290045,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "bag_skip_0.png",
+    "filename": "bag_skip_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_skip_0.png",
+    "features": {
+      "brightness": 0.7463003050108933,
+      "contrast": 0.39597208757085495,
+      "blur": 0.09047738431496499,
+      "noise": 0.23344390094130554,
+      "color_cast": 0.0002171710653031818,
+      "dynamic_range": 0.596078431372549,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "bag_skip_1.png",
+    "filename": "bag_skip_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_skip_1.png",
+    "features": {
+      "brightness": 0.746302788671024,
+      "contrast": 0.39588700949437294,
+      "blur": 0.090474106208559,
+      "noise": 0.23363556736271948,
+      "color_cast": 0.00024384791480677094,
+      "dynamic_range": 0.596078431372549,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "bag_skip_2.png",
+    "filename": "bag_skip_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_skip_2.png",
+    "features": {
+      "brightness": 0.7463013071895426,
+      "contrast": 0.3959328632389494,
+      "blur": 0.09047546049419886,
+      "noise": 0.23350833206084562,
+      "color_cast": 0.00022311279879828292,
+      "dynamic_range": 0.596078431372549,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "bag_skip_3.png",
+    "filename": "bag_skip_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_skip_3.png",
+    "features": {
+      "brightness": 0.7463165577342048,
+      "contrast": 0.39599691644405033,
+      "blur": 0.09038539443665894,
+      "noise": 0.2335397400102611,
+      "color_cast": 0.00022570961487471713,
+      "dynamic_range": 0.596078431372549,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "bag_straight_0.png",
+    "filename": "bag_straight_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_straight_0.png",
+    "features": {
+      "brightness": 0.7596871459694989,
+      "contrast": 0.4088558807825566,
+      "blur": 0.1650596846211465,
+      "noise": 0.16819230550882258,
+      "color_cast": 0.0,
+      "dynamic_range": 0.7647058823529411,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5686502790044892,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "bag_straight_1.png",
+    "filename": "bag_straight_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_straight_1.png",
+    "features": {
+      "brightness": 0.7596871459694989,
+      "contrast": 0.4088558807825566,
+      "blur": 0.1650596846211465,
+      "noise": 0.16819230550882258,
+      "color_cast": 0.0,
+      "dynamic_range": 0.7647058823529411,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5686502790044892,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "bag_straight_2.png",
+    "filename": "bag_straight_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_straight_2.png",
+    "features": {
+      "brightness": 0.7596871459694989,
+      "contrast": 0.4088558807825566,
+      "blur": 0.1650596846211465,
+      "noise": 0.16819230550882258,
+      "color_cast": 0.0,
+      "dynamic_range": 0.7647058823529411,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5686502790044892,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "bag_straight_3.png",
+    "filename": "bag_straight_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_straight_3.png",
+    "features": {
+      "brightness": 0.7596871459694989,
+      "contrast": 0.4088558807825566,
+      "blur": 0.1650596846211465,
+      "noise": 0.16819230550882258,
+      "color_cast": 0.0,
+      "dynamic_range": 0.7647058823529411,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5686502790044892,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "bag_wb_0.png",
+    "filename": "bag_wb_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_0.png",
+    "features": {
+      "brightness": 0.7028966013071896,
+      "contrast": 0.3962349966704975,
+      "blur": 0.08889181511633792,
+      "noise": 0.22983031025326295,
+      "color_cast": 0.8115501899383462,
+      "dynamic_range": 0.6,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6043491376962419,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "bag_wb_1.png",
+    "filename": "bag_wb_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_1.png",
+    "features": {
+      "brightness": 0.7028539433551197,
+      "contrast": 0.39624233878420884,
+      "blur": 0.08894143916956976,
+      "noise": 0.23001303666637754,
+      "color_cast": 0.8116384624396626,
+      "dynamic_range": 0.6,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6043372232468648,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "bag_wb_2.png",
+    "filename": "bag_wb_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_2.png",
+    "features": {
+      "brightness": 0.7028749891067538,
+      "contrast": 0.3961917527080638,
+      "blur": 0.08912703972970493,
+      "noise": 0.2297042772324346,
+      "color_cast": 0.8118014628879825,
+      "dynamic_range": 0.6,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6043077051617052,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "bag_wb_3.png",
+    "filename": "bag_wb_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_3.png",
+    "features": {
+      "brightness": 0.7028600871459695,
+      "contrast": 0.39630007839466286,
+      "blur": 0.08892386473622926,
+      "noise": 0.23000682568746908,
+      "color_cast": 0.811707941722277,
+      "dynamic_range": 0.6,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6043323760660967,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "bag_wb_hdr_0.png",
+    "filename": "bag_wb_hdr_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_hdr_0.png",
+    "features": {
+      "brightness": 0.17183285403050108,
+      "contrast": 0.09152127104741514,
+      "blur": 0.55884451366714,
+      "noise": 0.059096121737298245,
+      "color_cast": 0.5880888728144444,
+      "dynamic_range": 0.1450980392156863,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.5868644403533289,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "bag_wb_hdr_1.png",
+    "filename": "bag_wb_hdr_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_hdr_1.png",
+    "features": {
+      "brightness": 0.1717737254901961,
+      "contrast": 0.09139839071333616,
+      "blur": 0.5583254728152844,
+      "noise": 0.058917945517287455,
+      "color_cast": 0.5880428636785124,
+      "dynamic_range": 0.1450980392156863,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.5869101044437112,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "bag_wb_hdr_2.png",
+    "filename": "bag_wb_hdr_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_hdr_2.png",
+    "features": {
+      "brightness": 0.1717828322440087,
+      "contrast": 0.09142539266533656,
+      "blur": 0.5597856819853687,
+      "noise": 0.05884686966301438,
+      "color_cast": 0.5880351079603191,
+      "dynamic_range": 0.1450980392156863,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.5867939857247418,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "bag_wb_hdr_3.png",
+    "filename": "bag_wb_hdr_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\bag_wb_hdr_3.png",
+    "features": {
+      "brightness": 0.17179533769063182,
+      "contrast": 0.0914872529342724,
+      "blur": 0.5587076506954142,
+      "noise": 0.058911527682000926,
+      "color_cast": 0.5877820547358702,
+      "dynamic_range": 0.1450980392156863,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.5869030030181386,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "can_hdr_0.png",
+    "filename": "can_hdr_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_hdr_0.png",
+    "features": {
+      "brightness": 0.12284618736383442,
+      "contrast": 0.08306741805207463,
+      "blur": 0.8351490091788372,
+      "noise": 0.034107003082347466,
+      "color_cast": 0.07921830442334547,
+      "dynamic_range": 0.09411764705882353,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.610558431867592,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "can_hdr_1.png",
+    "filename": "can_hdr_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_hdr_1.png",
+    "features": {
+      "brightness": 0.12283782135076253,
+      "contrast": 0.08308357101192315,
+      "blur": 0.83519163848733,
+      "noise": 0.034100916890673724,
+      "color_cast": 0.07936546897234746,
+      "dynamic_range": 0.09411764705882353,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6105417767135024,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "can_hdr_2.png",
+    "filename": "can_hdr_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_hdr_2.png",
+    "features": {
+      "brightness": 0.12284849673202614,
+      "contrast": 0.08306361841978506,
+      "blur": 0.8347622197134443,
+      "noise": 0.03418000278522231,
+      "color_cast": 0.07950505279870387,
+      "dynamic_range": 0.09411764705882353,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6105635676710411,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "can_hdr_3.png",
+    "filename": "can_hdr_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_hdr_3.png",
+    "features": {
+      "brightness": 0.12284675381263616,
+      "contrast": 0.08310339504830223,
+      "blur": 0.8355868418054495,
+      "noise": 0.034011035334934804,
+      "color_cast": 0.07943060394686784,
+      "dynamic_range": 0.09411764705882353,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.610504298300346,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "can_skip_0.png",
+    "filename": "can_skip_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_skip_0.png",
+    "features": {
+      "brightness": 0.6286256644880175,
+      "contrast": 0.4225867796482469,
+      "blur": 0.23973084169832215,
+      "noise": 0.14139855142514832,
+      "color_cast": 0.3370029031052833,
+      "dynamic_range": 0.4549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "can_skip_1.png",
+    "filename": "can_skip_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_skip_1.png",
+    "features": {
+      "brightness": 0.6286383442265795,
+      "contrast": 0.4225995958130394,
+      "blur": 0.23983167094654878,
+      "noise": 0.1413738924332509,
+      "color_cast": 0.33702634509915563,
+      "dynamic_range": 0.45098039215686275,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "can_skip_2.png",
+    "filename": "can_skip_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_skip_2.png",
+    "features": {
+      "brightness": 0.6286456644880174,
+      "contrast": 0.4226090701699042,
+      "blur": 0.2398308015861571,
+      "noise": 0.14144151051431345,
+      "color_cast": 0.3371960885307653,
+      "dynamic_range": 0.45101960784311673,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "can_skip_3.png",
+    "filename": "can_skip_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_skip_3.png",
+    "features": {
+      "brightness": 0.6286456209150326,
+      "contrast": 0.4225837303088913,
+      "blur": 0.23973663066503204,
+      "noise": 0.14138119492224063,
+      "color_cast": 0.3370502735722422,
+      "dynamic_range": 0.4549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "can_straight_0.png",
+    "filename": "can_straight_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_straight_0.png",
+    "features": {
+      "brightness": 0.6523667538126361,
+      "contrast": 0.488624811473049,
+      "blur": 0.3522985056055713,
+      "noise": 0.10999906441552496,
+      "color_cast": 0.33803221581120696,
+      "dynamic_range": 0.5333333333333333,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5232482739027267,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "can_straight_1.png",
+    "filename": "can_straight_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_straight_1.png",
+    "features": {
+      "brightness": 0.6523667538126361,
+      "contrast": 0.488624811473049,
+      "blur": 0.3522985056055713,
+      "noise": 0.10999906441552496,
+      "color_cast": 0.33803221581120696,
+      "dynamic_range": 0.5333333333333333,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5232482739027267,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "can_straight_2.png",
+    "filename": "can_straight_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_straight_2.png",
+    "features": {
+      "brightness": 0.6523667538126361,
+      "contrast": 0.488624811473049,
+      "blur": 0.3522985056055713,
+      "noise": 0.10999906441552496,
+      "color_cast": 0.33803221581120696,
+      "dynamic_range": 0.5333333333333333,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5232482739027267,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "can_straight_3.png",
+    "filename": "can_straight_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_straight_3.png",
+    "features": {
+      "brightness": 0.6523667538126361,
+      "contrast": 0.488624811473049,
+      "blur": 0.3522985056055713,
+      "noise": 0.10999906441552496,
+      "color_cast": 0.33803221581120696,
+      "dynamic_range": 0.5333333333333333,
+      "perspective_skew": 0.5263843396195849
+    },
+    "scores": {
+      "skip": 0.5232482739027267,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "can_wb_0.png",
+    "filename": "can_wb_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_0.png",
+    "features": {
+      "brightness": 0.5848101525054465,
+      "contrast": 0.4193999918114387,
+      "blur": 0.24356295161131125,
+      "noise": 0.13540319225143582,
+      "color_cast": 0.7016536411256902,
+      "dynamic_range": 0.4549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.601866136169783,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "can_wb_1.png",
+    "filename": "can_wb_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_1.png",
+    "features": {
+      "brightness": 0.5848239215686274,
+      "contrast": 0.41919343520234276,
+      "blur": 0.24311265065231868,
+      "noise": 0.13549754968400857,
+      "color_cast": 0.7016092917635613,
+      "dynamic_range": 0.4549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6019061516890941,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "can_wb_2.png",
+    "filename": "can_wb_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_2.png",
+    "features": {
+      "brightness": 0.5847932026143791,
+      "contrast": 0.4192445282579984,
+      "blur": 0.24341100728590792,
+      "noise": 0.13545658866752502,
+      "color_cast": 0.7017337306672473,
+      "dynamic_range": 0.4549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6018710836570752,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "can_wb_3.png",
+    "filename": "can_wb_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_3.png",
+    "features": {
+      "brightness": 0.5848266230936819,
+      "contrast": 0.4193500331927297,
+      "blur": 0.2436935129670461,
+      "noise": 0.13537586824524894,
+      "color_cast": 0.7017313197173823,
+      "dynamic_range": 0.4549019607843137,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.601848700188072,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "can_wb_hdr_0.png",
+    "filename": "can_wb_hdr_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_hdr_0.png",
+    "features": {
+      "brightness": 0.14216997821350763,
+      "contrast": 0.09912179806181312,
+      "blur": 0.698106090275161,
+      "noise": 0.04500249512972847,
+      "color_cast": 0.5531434565656165,
+      "dynamic_range": 0.11372549019607843,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.5788686016870817,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "can_wb_hdr_1.png",
+    "filename": "can_wb_hdr_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_hdr_1.png",
+    "features": {
+      "brightness": 0.14219050108932463,
+      "contrast": 0.09891564559820526,
+      "blur": 0.6988222205845767,
+      "noise": 0.04493209800966418,
+      "color_cast": 0.5531418140348092,
+      "dynamic_range": 0.11372549019607843,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.578811459090101,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "can_wb_hdr_2.png",
+    "filename": "can_wb_hdr_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_hdr_2.png",
+    "features": {
+      "brightness": 0.1421409586056645,
+      "contrast": 0.09903868823521714,
+      "blur": 0.6993706908139847,
+      "noise": 0.04497619340399824,
+      "color_cast": 0.5529166343817152,
+      "dynamic_range": 0.11372549019607843,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.5787878476405268,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "can_wb_hdr_3.png",
+    "filename": "can_wb_hdr_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\can_wb_hdr_3.png",
+    "features": {
+      "brightness": 0.14216444444444445,
+      "contrast": 0.09900478266138037,
+      "blur": 0.6978345418857899,
+      "noise": 0.04501899028654189,
+      "color_cast": 0.5532810518058818,
+      "dynamic_range": 0.11372549019607843,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.5788779419866075,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "pallet_hdr_0.png",
+    "filename": "pallet_hdr_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_hdr_0.png",
+    "features": {
+      "brightness": 0.16050339869281047,
+      "contrast": 0.17576611384197782,
+      "blur": 0.3154942228519436,
+      "noise": 0.11410353155011681,
+      "color_cast": 0.00029085667952576246,
+      "dynamic_range": 0.1843137254901961,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6592342850706873,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "pallet_hdr_1.png",
+    "filename": "pallet_hdr_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_hdr_1.png",
+    "features": {
+      "brightness": 0.16049472766884532,
+      "contrast": 0.1757159842491186,
+      "blur": 0.3155855721890617,
+      "noise": 0.11414932457633978,
+      "color_cast": 0.0003793213970002431,
+      "dynamic_range": 0.1843137254901961,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6592190152991451,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "pallet_hdr_2.png",
+    "filename": "pallet_hdr_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_hdr_2.png",
+    "features": {
+      "brightness": 0.16049333333333335,
+      "contrast": 0.17570607607642044,
+      "blur": 0.31524224265910306,
+      "noise": 0.1142755542279341,
+      "color_cast": 0.00034279736122714926,
+      "dynamic_range": 0.1843137254901961,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6592497688247614,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "pallet_hdr_3.png",
+    "filename": "pallet_hdr_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_hdr_3.png",
+    "features": {
+      "brightness": 0.16048039215686274,
+      "contrast": 0.17571219137422098,
+      "blur": 0.31535685571849537,
+      "noise": 0.11423444210946346,
+      "color_cast": 0.0004149657876722078,
+      "dynamic_range": 0.1843137254901961,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6592341046216299,
+      "white_balance": 0.732,
+      "hdr": 0.931,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "hdr",
+    "label": 2
+  },
+  {
+    "image_id": "pallet_skip_0.png",
+    "filename": "pallet_skip_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_skip_0.png",
+    "features": {
+      "brightness": 0.8098372549019608,
+      "contrast": 0.8847836351237042,
+      "blur": 0.018318270646829116,
+      "noise": 0.567661728936138,
+      "color_cast": 0.0009758226191018323,
+      "dynamic_range": 0.9058823529411765,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "pallet_skip_1.png",
+    "filename": "pallet_skip_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_skip_1.png",
+    "features": {
+      "brightness": 0.8098423529411766,
+      "contrast": 0.8848306151428779,
+      "blur": 0.01832359739415723,
+      "noise": 0.5676430106691979,
+      "color_cast": 0.0009481683528304566,
+      "dynamic_range": 0.9058823529411765,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "pallet_skip_2.png",
+    "filename": "pallet_skip_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_skip_2.png",
+    "features": {
+      "brightness": 0.8098364270152506,
+      "contrast": 0.8847487336033987,
+      "blur": 0.018328675105143133,
+      "noise": 0.5676159148733925,
+      "color_cast": 0.0009534688132172607,
+      "dynamic_range": 0.9058823529411765,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "pallet_skip_3.png",
+    "filename": "pallet_skip_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_skip_3.png",
+    "features": {
+      "brightness": 0.8098482788671023,
+      "contrast": 0.8847731320963487,
+      "blur": 0.01833057535570104,
+      "noise": 0.5674842873726239,
+      "color_cast": 0.0009145528236706331,
+      "dynamic_range": 0.9058823529411765,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.9545,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "skip",
+    "label": 0
+  },
+  {
+    "image_id": "pallet_straight_0.png",
+    "filename": "pallet_straight_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_straight_0.png",
+    "features": {
+      "brightness": 0.8151851851851852,
+      "contrast": 0.8320873108930609,
+      "blur": 0.03478820772357427,
+      "noise": 0.4082300663849809,
+      "color_cast": 0.0,
+      "dynamic_range": 0.9607843137254902,
+      "perspective_skew": 0.5235542201318812
+    },
+    "scores": {
+      "skip": 0.5796238704563972,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "pallet_straight_1.png",
+    "filename": "pallet_straight_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_straight_1.png",
+    "features": {
+      "brightness": 0.8151851851851852,
+      "contrast": 0.8320873108930609,
+      "blur": 0.03478820772357427,
+      "noise": 0.4082300663849809,
+      "color_cast": 0.0,
+      "dynamic_range": 0.9607843137254902,
+      "perspective_skew": 0.5235542201318812
+    },
+    "scores": {
+      "skip": 0.5796238704563972,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "pallet_straight_2.png",
+    "filename": "pallet_straight_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_straight_2.png",
+    "features": {
+      "brightness": 0.8151851851851852,
+      "contrast": 0.8320873108930609,
+      "blur": 0.03478820772357427,
+      "noise": 0.4082300663849809,
+      "color_cast": 0.0,
+      "dynamic_range": 0.9607843137254902,
+      "perspective_skew": 0.5235542201318812
+    },
+    "scores": {
+      "skip": 0.5796238704563972,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "pallet_straight_3.png",
+    "filename": "pallet_straight_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_straight_3.png",
+    "features": {
+      "brightness": 0.8151851851851852,
+      "contrast": 0.8320873108930609,
+      "blur": 0.03478820772357427,
+      "noise": 0.4082300663849809,
+      "color_cast": 0.0,
+      "dynamic_range": 0.9607843137254902,
+      "perspective_skew": 0.5235542201318812
+    },
+    "scores": {
+      "skip": 0.5796238704563972,
+      "white_balance": 0.732,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.9435000000000001,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "straighten",
+    "label": 3
+  },
+  {
+    "image_id": "pallet_wb_0.png",
+    "filename": "pallet_wb_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_0.png",
+    "features": {
+      "brightness": 0.7531682788671024,
+      "contrast": 0.7764680479364555,
+      "blur": 0.02275492904551335,
+      "noise": 0.5019577356661232,
+      "color_cast": 0.5815622453926375,
+      "dynamic_range": 0.792156862745098,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6303390035910216,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "pallet_wb_1.png",
+    "filename": "pallet_wb_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_1.png",
+    "features": {
+      "brightness": 0.7531663616557734,
+      "contrast": 0.7764656147237348,
+      "blur": 0.022757272175673915,
+      "noise": 0.5020106105459184,
+      "color_cast": 0.5814467822970526,
+      "dynamic_range": 0.792156862745098,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6303492078192113,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "pallet_wb_2.png",
+    "filename": "pallet_wb_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_2.png",
+    "features": {
+      "brightness": 0.7531858823529411,
+      "contrast": 0.776460483917013,
+      "blur": 0.022752636248118185,
+      "noise": 0.5020490173692471,
+      "color_cast": 0.5814717809250198,
+      "dynamic_range": 0.792156862745098,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6303473288168988,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "pallet_wb_3.png",
+    "filename": "pallet_wb_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_3.png",
+    "features": {
+      "brightness": 0.7531787363834422,
+      "contrast": 0.7764079031405924,
+      "blur": 0.02275986431655308,
+      "noise": 0.5020090795253866,
+      "color_cast": 0.5814187062577358,
+      "dynamic_range": 0.792156862745098,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6303515272914796,
+      "white_balance": 0.926,
+      "hdr": 0.7690000000000001,
+      "straighten": 0.7345,
+      "wb_hdr": 0.8160000000000001
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "white_balance",
+    "label": 1
+  },
+  {
+    "image_id": "pallet_wb_hdr_0.png",
+    "filename": "pallet_wb_hdr_0.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_hdr_0.png",
+    "features": {
+      "brightness": 0.18984762527233115,
+      "contrast": 0.1736939236283947,
+      "blur": 0.3026616336973982,
+      "noise": 0.10893775576699784,
+      "color_cast": 0.5504777703718933,
+      "dynamic_range": 0.18823529411764706,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6107440699707378,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "pallet_wb_hdr_1.png",
+    "filename": "pallet_wb_hdr_1.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_hdr_1.png",
+    "features": {
+      "brightness": 0.18985420479302834,
+      "contrast": 0.17365240150784864,
+      "blur": 0.30301141502591966,
+      "noise": 0.10888655960975549,
+      "color_cast": 0.5504671950078261,
+      "dynamic_range": 0.18823529411764706,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6107170392472222,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "pallet_wb_hdr_2.png",
+    "filename": "pallet_wb_hdr_2.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_hdr_2.png",
+    "features": {
+      "brightness": 0.18984069716775598,
+      "contrast": 0.1736374817883188,
+      "blur": 0.30300945068878504,
+      "noise": 0.10895265131357698,
+      "color_cast": 0.5504566809279033,
+      "dynamic_range": 0.18823529411764706,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.610718142661386,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  },
+  {
+    "image_id": "pallet_wb_hdr_3.png",
+    "filename": "pallet_wb_hdr_3.png",
+    "filepath": "E:/VisionPilot_AI/uploads/mock_unseen\\pallet_wb_hdr_3.png",
+    "features": {
+      "brightness": 0.1898453594771242,
+      "contrast": 0.1736751737511193,
+      "blur": 0.3025280057301144,
+      "noise": 0.10892816633760767,
+      "color_cast": 0.5502045271629188,
+      "dynamic_range": 0.18823529411764706,
+      "perspective_skew": 0.0
+    },
+    "scores": {
+      "skip": 0.6107793520969282,
+      "white_balance": 0.786,
+      "hdr": 0.859,
+      "straighten": 0.7345,
+      "wb_hdr": 0.9515
+    },
+    "latency_ms": {
+      "skip": 1.2,
+      "white_balance": 14.0,
+      "hdr": 59.0,
+      "straighten": 18.0,
+      "wb_hdr": 63.0
+    },
+    "best_strategy": "wb_hdr",
+    "label": 4
+  }
+]

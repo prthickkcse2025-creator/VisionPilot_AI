@@ -1,0 +1,44 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "debug": true
+  },
+  "database": {
+    "postgresql_url": "postgresql+asyncpg://visionpilot:visionpilot@localhost/visionpilot_db",
+    "sqlite_fallback_url": "sqlite+aiosqlite:///E:/VisionPilot_AI/database/visionpilot.db",
+    "use_sqlite_fallback": true
+  },
+  "auth": {
+    "jwt_secret": "SUPER_SECRET_VISION_PILOT_KEY_12345!",
+    "jwt_algorithm": "HS256",
+    "token_expire_minutes": 1440
+  },
+  "storage": {
+    "uploads_dir": "E:/VisionPilot_AI/uploads",
+    "outputs_dir": "E:/VisionPilot_AI/outputs",
+    "logs_dir": "E:/VisionPilot_AI/logs"
+  },
+  "pipeline": {
+    "straightener": {
+      "confidence_threshold": 0.08,
+      "angle_threshold": 0.25
+    },
+    "hdr": {
+      "default_mode": "pytorch_weight",
+      "deep_fusion_epochs": 10
+    },
+    "yolo": {
+      "confidence_threshold": 0.25,
+      "model_type": "yolov8n"
+    },
+    "ocr": {
+      "languages": ["en"],
+      "gpu": false
+    },
+    "packaging": {
+      "require_batch": true,
+      "require_expiry": true
+    }
+  }
+}

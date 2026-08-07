@@ -1,0 +1,40 @@
+# Dockerfile for VisionPilot AI FastAPI Backend
+FROM python:3.11-slim
+
+# Install system dependencies for OpenCV and other packages
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Set working directory
+WORKDIR /app
+
+# Copy requirements
+COPY backend/requirements.txt ./
+
+# Install python packages (utilize PyTorch CPU for lightweight containerization)
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir torch torchvision --index-url https://download.pytorch.org/whl/cpu && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Copy backend codebase
+COPY backend/ ./backend
+COPY models/ ./models
+COPY configs/ ./configs
+COPY HDR_Fusion_Engine_VisionPilot.py ./
+COPY ImageStraightener_VisionPilot.py ./
+
+# Create default directories
+RUN mkdir -p /app/uploads /app/outputs /app/logs /app/database
+
+# Expose FastAPI port
+EXPOSE 8000
+
+# Set Python path to ensure module imports resolve correctly
+ENV PYTHONPATH=/app
+
+# Start Uvicorn Server (support Railway $PORT or fallback to 8000)
+CMD ["sh", "-c", "uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}"]

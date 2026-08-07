@@ -1,0 +1,60 @@
+{
+  "data_leakage_detected": true,
+  "grouped_cross_val_metrics": [
+    {
+      "fold": 1,
+      "val_group": "barcode",
+      "accuracy": 0.8,
+      "precision": 0.7,
+      "recall": 0.8,
+      "f1_score": 0.7333333333333333
+    },
+    {
+      "fold": 2,
+      "val_group": "carton",
+      "accuracy": 0.6,
+      "precision": 0.5,
+      "recall": 0.6,
+      "f1_score": 0.5333333333333333
+    },
+    {
+      "fold": 3,
+      "val_group": "bottle",
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    {
+      "fold": 4,
+      "val_group": "qr",
+      "accuracy": 1.0,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1_score": 0.8
+    },
+    {
+      "fold": 5,
+      "val_group": "shipping",
+      "accuracy": 0.8,
+      "precision": 0.8,
+      "recall": 0.7,
+      "f1_score": 0.7333333333333333
+    }
+  ],
+  "grouped_cross_val_summary": {
+    "mean_accuracy": 0.8400000000000001,
+    "std_accuracy": 0.14966629547095767,
+    "mean_f1_score": 0.76,
+    "std_f1_score": 0.14966629547095767
+  },
+  "generalization_test": {
+    "dataset_size": 60,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "expected_calibration_error": 0.03753729661305741,
+    "failures": []
+  }
+}

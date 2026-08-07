@@ -1,0 +1,302 @@
+[
+  {
+    "image_id": "shipping_hdr_0.png",
+    "features": [
+      0.1828981637954712,
+      0.20866358280181885,
+      0.1726115196943283,
+      0.164747416973114,
+      0.0004919681814499199,
+      0.21176470816135406,
+      0.0
+    ],
+    "predicted_strategy": "hdr",
+    "ground_truth_strategy": "hdr",
+    "confidence_score": 0.9930918216705322
+  },
+  {
+    "image_id": "shipping_hdr_1.png",
+    "features": [
+      0.18288104236125946,
+      0.20864219963550568,
+      0.17268581688404083,
+      0.16480477154254913,
+      0.0005930019542574883,
+      0.21176470816135406,
+      0.0
+    ],
+    "predicted_strategy": "hdr",
+    "ground_truth_strategy": "hdr",
+    "confidence_score": 0.993091344833374
+  },
+  {
+    "image_id": "shipping_hdr_2.png",
+    "features": [
+      0.18289899826049805,
+      0.20869049429893494,
+      0.17250986397266388,
+      0.16485433280467987,
+      0.000500395311973989,
+      0.21176470816135406,
+      0.0
+    ],
+    "predicted_strategy": "hdr",
+    "ground_truth_strategy": "hdr",
+    "confidence_score": 0.9930851459503174
+  },
+  {
+    "image_id": "shipping_hdr_3.png",
+    "features": [
+      0.18286775052547455,
+      0.20866809785366058,
+      0.17261728644371033,
+      0.1648486852645874,
+      0.0006617543986067176,
+      0.21176470816135406,
+      0.0
+    ],
+    "predicted_strategy": "hdr",
+    "ground_truth_strategy": "hdr",
+    "confidence_score": 0.9930845499038696
+  },
+  {
+    "image_id": "shipping_skip_0.png",
+    "features": [
+      0.8517256379127502,
+      0.969685435295105,
+      0.009760110639035702,
+      0.7664626240730286,
+      0.0004951687296852469,
+      0.9647058844566345,
+      0.0
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.9994381070137024
+  },
+  {
+    "image_id": "shipping_skip_1.png",
+    "features": [
+      0.8517096042633057,
+      0.9696491956710815,
+      0.009761106222867966,
+      0.7664846777915955,
+      0.0005079325055703521,
+      0.9647058844566345,
+      0.0
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.9994382262229919
+  },
+  {
+    "image_id": "shipping_skip_2.png",
+    "features": [
+      0.8517449498176575,
+      0.9696968197822571,
+      0.009758368134498596,
+      0.7666235566139221,
+      0.0004353078256826848,
+      0.9647058844566345,
+      0.0
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.9994388222694397
+  },
+  {
+    "image_id": "shipping_skip_3.png",
+    "features": [
+      0.8517301082611084,
+      0.9696841239929199,
+      0.009759730659425259,
+      0.7665838599205017,
+      0.0005363889504224062,
+      0.9647058844566345,
+      0.0
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.9994382262229919
+  },
+  {
+    "image_id": "shipping_straight_0.png",
+    "features": [
+      0.858468770980835,
+      0.863886833190918,
+      0.020942363888025284,
+      0.5174151062965393,
+      0.0,
+      0.9607843160629272,
+      0.6648038625717163
+    ],
+    "predicted_strategy": "straighten",
+    "ground_truth_strategy": "straighten",
+    "confidence_score": 0.9924752116203308
+  },
+  {
+    "image_id": "shipping_straight_1.png",
+    "features": [
+      0.858468770980835,
+      0.863886833190918,
+      0.020942363888025284,
+      0.5174151062965393,
+      0.0,
+      0.9607843160629272,
+      0.6648038625717163
+    ],
+    "predicted_strategy": "straighten",
+    "ground_truth_strategy": "straighten",
+    "confidence_score": 0.9924752116203308
+  },
+  {
+    "image_id": "shipping_straight_2.png",
+    "features": [
+      0.858468770980835,
+      0.863886833190918,
+      0.020942363888025284,
+      0.5174151062965393,
+      0.0,
+      0.9607843160629272,
+      0.6648038625717163
+    ],
+    "predicted_strategy": "straighten",
+    "ground_truth_strategy": "straighten",
+    "confidence_score": 0.9924752116203308
+  },
+  {
+    "image_id": "shipping_straight_3.png",
+    "features": [
+      0.858468770980835,
+      0.863886833190918,
+      0.020942363888025284,
+      0.5174151062965393,
+      0.0,
+      0.9607843160629272,
+      0.6648038625717163
+    ],
+    "predicted_strategy": "straighten",
+    "ground_truth_strategy": "straighten",
+    "confidence_score": 0.9924752116203308
+  },
+  {
+    "image_id": "shipping_wb_0.png",
+    "features": [
+      0.8152114748954773,
+      0.9179493188858032,
+      0.010740485973656178,
+      0.7267152667045593,
+      0.3232435882091522,
+      0.9058823585510254,
+      0.0
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.8499676585197449
+  },
+  {
+    "image_id": "shipping_wb_1.png",
+    "features": [
+      0.8152120113372803,
+      0.9178945422172546,
+      0.010739627294242382,
+      0.7266271114349365,
+      0.32316961884498596,
+      0.9058823585510254,
+      0.0
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.8501995801925659
+  },
+  {
+    "image_id": "shipping_wb_2.png",
+    "features": [
+      0.8151981830596924,
+      0.9179242849349976,
+      0.010741401463747025,
+      0.7265411615371704,
+      0.3233835697174072,
+      0.9058823585510254,
+      0.017848633229732513
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.8479982614517212
+  },
+  {
+    "image_id": "shipping_wb_3.png",
+    "features": [
+      0.8152127265930176,
+      0.9179502725601196,
+      0.01073781680315733,
+      0.7266319394111633,
+      0.32315823435783386,
+      0.9058823585510254,
+      0.0
+    ],
+    "predicted_strategy": "skip",
+    "ground_truth_strategy": "skip",
+    "confidence_score": 0.8502051830291748
+  },
+  {
+    "image_id": "shipping_wb_hdr_0.png",
+    "features": [
+      0.22062274813652039,
+      0.21762502193450928,
+      0.1616474837064743,
+      0.17060071229934692,
+      0.47401246428489685,
+      0.21568627655506134,
+      0.0
+    ],
+    "predicted_strategy": "wb_hdr",
+    "ground_truth_strategy": "wb_hdr",
+    "confidence_score": 0.9891974329948425
+  },
+  {
+    "image_id": "shipping_wb_hdr_1.png",
+    "features": [
+      0.22063760459423065,
+      0.2176424264907837,
+      0.16162893176078796,
+      0.17074576020240784,
+      0.473951518535614,
+      0.21568627655506134,
+      0.0
+    ],
+    "predicted_strategy": "wb_hdr",
+    "ground_truth_strategy": "wb_hdr",
+    "confidence_score": 0.9891853332519531
+  },
+  {
+    "image_id": "shipping_wb_hdr_2.png",
+    "features": [
+      0.2206251472234726,
+      0.2176208347082138,
+      0.16159410774707794,
+      0.17080317437648773,
+      0.4739450216293335,
+      0.21960784494876862,
+      0.0
+    ],
+    "predicted_strategy": "wb_hdr",
+    "ground_truth_strategy": "wb_hdr",
+    "confidence_score": 0.988938570022583
+  },
+  {
+    "image_id": "shipping_wb_hdr_3.png",
+    "features": [
+      0.22062444686889648,
+      0.21763771772384644,
+      0.1615922600030899,
+      0.17070548236370087,
+      0.47399765253067017,
+      0.21960784494876862,
+      0.04008457809686661
+    ],
+    "predicted_strategy": "wb_hdr",
+    "ground_truth_strategy": "wb_hdr",
+    "confidence_score": 0.9787140488624573
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "baselines": {
+    "raw": {
+      "mean_ocr": 0.6065065349632122,
+      "mean_det": 0.6468373331661261,
+      "mean_pack": 0.5959016761251806,
+      "mean_latency": 1.2,
+      "mean_score": 0.6210481254186732
+    },
+    "clahe": {
+      "mean_ocr": 0.6225065349632123,
+      "mean_det": 0.6596373331661263,
+      "mean_pack": 0.5959016761251806,
+      "mean_latency": 3.7,
+      "mean_score": 0.6333681254186732
+    },
+    "fixed": {
+      "mean_ocr": 0.9317093332915316,
+      "mean_det": 0.9117093332915315,
+      "mean_pack": 0.9000000000000005,
+      "mean_latency": 92.20000000000006,
+      "mean_score": 0.9189529332978017
+    },
+    "visionpilot": {
+      "mean_ocr": 0.9475999999999998,
+      "mean_det": 0.9384,
+      "mean_pack": 0.9320000000000002,
+      "mean_latency": 32.51599999999999,
+      "mean_score": 0.9415799999999999
+    }
+  },
+  "ablations": {
+    "always_wb": {
+      "mean_acc": 0.7863999999999999,
+      "mean_latency": 15.2,
+      "mean_score": 0.7708800000000001
+    },
+    "always_hdr": {
+      "mean_acc": 0.7800000000000001,
+      "mean_latency": 60.2,
+      "mean_score": 0.8284000000000004
+    },
+    "always_straighten": {
+      "mean_acc": 0.7100000000000003,
+      "mean_latency": 19.2,
+      "mean_score": 0.8120000000000005
+    }
+  },
+  "visionpilot_stats": {
+    "selection_frequency": {
+      "2": 20,
+      "0": 28,
+      "3": 20,
+      "1": 12,
+      "4": 20
+    },
+    "average_confidence": 0.965531525015831,
+    "percentage_skipped": 28.000000000000004
+  }
+}

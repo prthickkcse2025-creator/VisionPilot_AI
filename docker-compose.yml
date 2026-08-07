@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: visionpilot_db
+    restart: always
+    environment:
+      POSTGRES_USER: visionpilot
+      POSTGRES_PASSWORD: visionpilot
+      POSTGRES_DB: visionpilot_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U visionpilot -d visionpilot_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.backend
+    container_name: visionpilot_backend
+    restart: always
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://visionpilot:visionpilot@db:5432/visionpilot_db
+      - USE_SQLITE_FALLBACK=false
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./outputs:/app/outputs
+      - ./logs:/app/logs
+    depends_on:
+      db:
+        condition: service_healthy
+
+  frontend:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.frontend
+    container_name: visionpilot_frontend
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+volumes:
+  pgdata:

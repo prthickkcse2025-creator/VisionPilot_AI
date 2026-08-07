@@ -1,0 +1,36 @@
+features:
+  - "brightness"
+  - "contrast"
+  - "blur"
+  - "noise"
+  - "color_cast"
+  - "dynamic_range"
+  - "perspective_skew"
+
+classes:
+  0: "Skip"
+  1: "White Balance"
+  2: "HDR Fusion"
+  3: "Image Straightening"
+  4: "White Balance + HDR Fusion"
+
+hyperparameters:
+  learning_rate: 0.005
+  batch_size: 16
+  epochs: 100
+  weight_decay: 0.0001
+  random_seed: 42
+
+checkpoints:
+  checkpoint_dir: "E:/VisionPilot_AI/backend/models/policy/checkpoints"
+  best_model_path: "E:/VisionPilot_AI/backend/models/policy/checkpoints/policy_best.pth"
+
+early_stopping:
+  patience: 10
+  min_delta: 0.001
+
+evaluation_weights:
+  ocr: 0.45
+  detection: 0.40
+  packaging: 0.15
+

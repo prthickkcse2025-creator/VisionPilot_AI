@@ -1,0 +1,16 @@
+enabled_plugins:
+  - "HDR Fusion"
+  - "Image Straightener"
+plugin_priority:
+  - "HDR Fusion"
+  - "Image Straightener"
+output_folder: "outputs"
+logging:
+  level: "INFO"
+  file_path: "logs/visionpilot.log"
+image_formats:
+  - "jpg"
+  - "jpeg"
+  - "png"
+  - "tiff"
+  - "bmp"
