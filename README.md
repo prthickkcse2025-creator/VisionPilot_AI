@@ -97,6 +97,18 @@ Log in using the following seeded operator credentials:
 For further instructions, refer to:
 - [Local Installation Guide](file:///E:/VisionPilot_AI/docs/installation_guide.md)
 - [Railway Deployment Guide](file:///E:/VisionPilot_AI/docs/railway_deployment_guide.md)
+- [Streamlit Demo Guide](file:///E:/VisionPilot_AI/docs/streamlit_deployment_guide.md)
 - [User & Admin Manual](file:///E:/VisionPilot_AI/docs/user_manual.md)
 - [API Reference Sheets](file:///E:/VisionPilot_AI/docs/api_documentation.md)
 - [Troubleshooting & Recovery](file:///E:/VisionPilot_AI/docs/troubleshooting_guide.md)
+
+---
+
+## Streamlit Hackathon Demo Page (Quick Start)
+
+To run the lightweight Streamlit presentation layer for judges:
+```bash
+pip install -r streamlit_app/streamlit_requirements.txt
+streamlit run streamlit_app/app.py
+```
+This deploys a standalone dashboard interface showcasing metrics comparisons, defect uploads, and model pipeline decisions in real-time.

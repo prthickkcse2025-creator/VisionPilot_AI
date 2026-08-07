@@ -43,6 +43,9 @@ VisionPilot_AI/
 - [`architecture_overview.md`](file:///E:/VisionPilot_AI/docs/architecture_overview.md): System design, blocks, and sequence mappings.
 - [`scientific_benchmark_report.md`](file:///E:/VisionPilot_AI/docs/scientific_benchmark_report.md): Comparative evaluation results and validity threats.
 - [`railway_readiness_report.md`](file:///E:/VisionPilot_AI/docs/railway_readiness_report.md): Verification report confirming Railway readiness.
+- [`streamlit_deployment_guide.md`](file:///E:/VisionPilot_AI/docs/streamlit_deployment_guide.md): Streamlit Hackathon Demo run instructions.
+- [`streamlit_app/app.py`](file:///E:/VisionPilot_AI/streamlit_app/app.py): Streamlit dashboard main launcher.
+- [`streamlit_app/streamlit_requirements.txt`](file:///E:/VisionPilot_AI/streamlit_app/streamlit_requirements.txt): Deployment dependencies list.
 
 ---
 
@@ -50,6 +53,7 @@ VisionPilot_AI/
 
 - **`backend/`**: Serves REST APIs, processes incoming images, extracts features, queries the Policy MLP network, and coordinates enhancement execution.
 - **`frontend/`**: Dynamic dashboard for operator logins, drag-drop comparison, latency metrics, and configuration audits.
+- **`streamlit_app/`**: Lightweight Streamlit presentation dashboard built specifically for Hackathon evaluation.
 - **`configs/`**: Defines thresholds, scoring parameters, model inputs, and downstream weights.
 - **`database/`**: Initializes historical inspection tables, user credentials, and telemetry schemas.
 - **`deployment/`**: Manages Nginx routing, routing assets, and proxy headers.
