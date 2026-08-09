@@ -53,10 +53,10 @@ class HDRFusionPlugin(EnhancementPlugin):
         # Simulate brackets if we don't have them
         brackets = config.get("brackets", [])
         if not brackets:
-            # Create synthetic exposure brackets (under-exposed, normal, over-exposed)
-            under = np.clip(image.astype(np.float32) * 0.5, 0, 255).astype(np.uint8)
-            over = np.clip(image.astype(np.float32) * 1.5, 0, 255).astype(np.uint8)
-            images_to_fuse = [under, image, over]
+            # Create dynamic exposure brackets to recover shadows and balance contrast
+            gamma_boost = np.clip(np.power(image.astype(np.float32) / 255.0, 0.40) * 255.0, 0, 255).astype(np.uint8)
+            bright_boost = np.clip(image.astype(np.float32) * 3.5 + 40, 0, 255).astype(np.uint8)
+            images_to_fuse = [image, bright_boost, gamma_boost]
         else:
             images_to_fuse = [image] + list(brackets)
 

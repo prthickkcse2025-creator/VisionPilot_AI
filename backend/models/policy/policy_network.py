@@ -35,10 +35,9 @@ class InferenceAwarePolicyNetwork:
         self.model.eval()
         
         # Load weights if available
-        self.weights_path = self.config.get(
-            "best_model_path", 
-            "E:/VisionPilot_AI/backend/models/policy/checkpoints/policy_best.pth"
-        )
+        base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "checkpoints"))
+        default_weights = os.path.join(base_dir, "policy_best.pth")
+        self.weights_path = self.config.get("best_model_path", default_weights)
         self.is_trained = False
         if os.path.exists(self.weights_path):
             try:
@@ -90,19 +89,22 @@ class InferenceAwarePolicyNetwork:
             predicted_class = 0
             confidence = 0.95
             
-            if dynamic_range > 0.7 or brightness < 0.3:
+            if brightness < 0.30 or (dynamic_range > 0.85 and brightness < 0.45):
                 if color_cast > 0.4:
                     predicted_class = 4  # WB + HDR
-                    confidence = 0.88
+                    confidence = 0.94
                 else:
                     predicted_class = 2  # HDR
-                    confidence = 0.92
+                    confidence = 0.95
             elif skew > 0.08:
                 predicted_class = 3  # Straighten
-                confidence = 0.91
-            elif color_cast > 0.5:
+                confidence = 0.96
+            elif color_cast > 0.45:
                 predicted_class = 1  # WB
-                confidence = 0.89
+                confidence = 0.93
+            else:
+                predicted_class = 0  # Skip
+                confidence = 0.98
 
         # Class maps to strategies
         class_to_strategy = {
