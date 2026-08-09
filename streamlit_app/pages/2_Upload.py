@@ -27,31 +27,71 @@ src_type = st.radio("Source Selection", ["Pre-seeded Sample Images", "Upload Loc
 
 img_selected = None
 
+def render_carton_base():
+    # Cardboard corrugated base
+    canvas = np.zeros((440, 600, 3), dtype=np.uint8)
+    canvas[:, :] = [135, 175, 215]  # Brown BGR
+    # Conveyor rails
+    cv2.rectangle(canvas, (0, 0), (600, 35), (45, 45, 45), -1)
+    cv2.rectangle(canvas, (0, 405), (600, 440), (45, 45, 45), -1)
+    # Box body
+    cv2.rectangle(canvas, (60, 50), (540, 390), (105, 145, 190), -1)
+    cv2.rectangle(canvas, (60, 50), (540, 390), (65, 95, 135), 2)
+    # Tape line
+    cv2.rectangle(canvas, (60, 210), (540, 230), (160, 200, 230), -1)
+    # White Shipping Label
+    cv2.rectangle(canvas, (110, 80), (490, 360), (250, 250, 250), -1)
+    cv2.rectangle(canvas, (110, 80), (490, 360), (180, 180, 180), 2)
+    # Label Header
+    cv2.rectangle(canvas, (110, 80), (490, 120), (35, 35, 35), -1)
+    cv2.putText(canvas, "LOGISTICS EXPRESS - CARGO LINE", (125, 108), cv2.FONT_HERSHEY_DUPLEX, 0.55, (255, 255, 255), 1)
+    # Text details
+    cv2.putText(canvas, "TRACKING: VP-9982-USA", (125, 150), cv2.FONT_HERSHEY_SIMPLEX, 0.55, (20, 20, 20), 2)
+    cv2.putText(canvas, "DEST: WAREHOUSE DOCK #4", (125, 175), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (60, 60, 60), 1)
+    cv2.putText(canvas, "ITEM: INDUSTRIAL CONTROLLER (QTY: 1)", (125, 195), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (60, 60, 60), 1)
+    cv2.putText(canvas, "BATCH: 2026-AUG-14", (125, 220), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (20, 20, 20), 2)
+    # Barcode
+    np.random.seed(42)
+    bx = 130
+    while bx < 470:
+        bw = np.random.choice([2, 3, 5, 7])
+        bgap = np.random.choice([2, 3, 4, 6])
+        if bx + bw < 470:
+            cv2.rectangle(canvas, (bx, 240), (bx + bw, 310), (10, 10, 10), -1)
+        bx += bw + bgap
+    cv2.putText(canvas, "* 890123456789 *", (210, 335), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (20, 20, 20), 1)
+    # Fragile stamp
+    cv2.rectangle(canvas, (400, 135), (475, 215), (40, 40, 210), 2)
+    cv2.putText(canvas, "FRAGILE", (408, 180), cv2.FONT_HERSHEY_SIMPLEX, 0.45, (40, 40, 210), 1)
+    return canvas
+
 if src_type == "Pre-seeded Sample Images":
     sample = st.selectbox(
         "Select Sample Defect Case",
-        ["Nominal Frame (Clear)", "Underexposed Label (Requires HDR)", "Skewed Label (Requires Straightener)", "Color Cast Frame (Requires WB)"]
+        ["Nominal Product Carton (Clear)", "Underexposed Label (Requires HDR Fusion)", "Skewed Package (-9° Tilt - Requires Straightener)", "Harsh Industrial Color Cast (Requires White Balance)"]
     )
-    # Create simulated sample pixels
-    if sample == "Nominal Frame (Clear)":
-        arr = np.ones((400, 600, 3), dtype=np.uint8) * 180
-        cv2.putText(arr, "NOMINAL BOX", (150, 200), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (20, 20, 20), 3)
-        img_selected = arr
-    elif sample == "Underexposed Label (Requires HDR)":
-        arr = np.ones((400, 600, 3), dtype=np.uint8) * 45
-        cv2.putText(arr, "DARK BOX (HDR REQUIRED)", (80, 200), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (255, 255, 255), 2)
-        img_selected = arr
-    elif sample == "Skewed Label (Requires Straightener)":
-        arr = np.ones((400, 600, 3), dtype=np.uint8) * 180
-        cv2.putText(arr, "SKEWED BOX (-5 DEG)", (100, 200), cv2.FONT_HERSHEY_SIMPLEX, 1.0, (20, 20, 20), 2)
-        img_selected = arr
-    else: # Color Cast
-        arr = np.ones((400, 600, 3), dtype=np.uint8)
-        arr[:, :, 0] = 50   # Blue
-        arr[:, :, 1] = 200  # Green (cast)
-        arr[:, :, 2] = 50   # Red
-        cv2.putText(arr, "COLOR CAST BOX", (120, 200), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (20, 20, 20), 3)
-        img_selected = arr
+    
+    base_box = render_carton_base()
+    
+    if sample == "Nominal Product Carton (Clear)":
+        img_selected = base_box
+    elif sample == "Underexposed Label (Requires HDR Fusion)":
+        dark = (base_box * 0.20).astype(np.uint8)
+        # Add deep shadow gradient
+        for i in range(dark.shape[1]):
+            dark[:, i] = (dark[:, i] * (0.35 + 0.65 * (i / dark.shape[1]))).astype(np.uint8)
+        img_selected = dark
+    elif sample == "Skewed Package (-9° Tilt - Requires Straightener)":
+        h, w = base_box.shape[:2]
+        center = (w // 2, h // 2)
+        matrix = cv2.getRotationMatrix2D(center, 9.2, 0.95)
+        img_selected = cv2.warpAffine(base_box, matrix, (w, h), borderMode=cv2.BORDER_CONSTANT, borderValue=(45, 45, 45))
+    else: # Color cast
+        cast = base_box.copy().astype(np.float32)
+        cast[:, :, 0] *= 0.35  # Suppress Blue
+        cast[:, :, 1] *= 1.25  # Boost Green
+        cast[:, :, 2] *= 1.35  # Boost Red (Warm amber cast)
+        img_selected = np.clip(cast, 0, 255).astype(np.uint8)
 else:
     uploaded_file = st.file_uploader("Upload Industrial Frame", type=["png", "jpg", "jpeg", "bmp", "tiff"])
     if uploaded_file is not None:
