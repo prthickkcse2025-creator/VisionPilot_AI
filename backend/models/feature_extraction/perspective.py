@@ -22,8 +22,10 @@ def extract_perspective_skew(image: np.ndarray) -> float:
         
     angles = []
     for line in lines:
-        for x1, y1, x2, y2 in line:
-            angle = np.arctan2(y2 - y1, x2 - x1) * 180.0 / np.pi
+        pts = line.reshape(-1)
+        if len(pts) >= 4:
+            x1, y1, x2, y2 = pts[:4]
+            angle = float(np.arctan2(y2 - y1, x2 - x1) * 180.0 / np.pi)
             # Normalize angles to [-45, 45] degrees
             if angle > 45:
                 angle -= 90
@@ -31,7 +33,7 @@ def extract_perspective_skew(image: np.ndarray) -> float:
                 angle += 90
             angles.append(abs(angle))
             
-    median_angle = float(np.median(angles)) if angles else 0.0
+    median_angle = float(np.median(angles)) if len(angles) > 0 else 0.0
     
     # Normalize: typical skews range [0, 15] degrees. Map to [0.0, 1.0]
     return np.clip(median_angle / 15.0, 0.0, 1.0)
